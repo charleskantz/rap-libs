@@ -1,7 +1,3 @@
-html {
-  background-color: whitesmoke;
-}
-
 .choice-icecube {
   width: 200px;
   height: 200px;
@@ -44,11 +40,6 @@ html {
   color: olive;
   letter-spacing: .03em;
   font-size: 1.2em;
-}
-
-.center {
-  /* margin: 0 auto; */
-  /* display: inline; */
 }
 
 .story-complete {

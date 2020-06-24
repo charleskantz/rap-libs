@@ -72,14 +72,16 @@ function Madlib() {
 
   // using states to manage progress through Mad Lib
   return (
-    <div>
-      <h1>Rap Libs</h1>
+    <>
+      <div>
+        <h1 onClick={resetApp}>Rap Libs</h1>
+      </div>
       {
         storyComplete ? renderCompleteStory()
           : storyChosen ? <MadLibForm storyWords={storyChosen.words} renderStory={handleFormSubmit} />
           : renderStoryChoice()
       }
-    </div>
+    </>
   );
 }
 
