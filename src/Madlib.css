@@ -1,0 +1,64 @@
+html {
+  background-color: whitesmoke;
+}
+
+.choice-icecube {
+  width: 200px;
+  height: 200px;
+  background-image: url('https://i.imgur.com/JQrt8kA.png');
+  background-size: contain;
+  cursor: pointer;
+}
+
+.choice-snoopdogg {
+  width: 200px;
+  height: 200px;
+  background-image: url('https://i.imgur.com/4H09Yw6.png');
+  background-size: contain;
+  cursor: pointer;
+}
+
+.margin-left {
+  margin-left: 10px;
+}
+
+.margin-right {
+  margin-right: 10px;
+}
+
+.inner-container {
+  display: flex;
+  justify-content: center;
+}
+
+.final-madlib {
+  font-size: 14pt;
+  max-width: 500px;
+  line-height: 1.5em;
+  font-family: 'Roboto Slab', serif;
+}
+
+.submitted-word {
+  font-family: 'Rakkas', 'Roboto Slab';
+  font-weight: bold;
+  color: olive;
+  letter-spacing: .03em;
+  font-size: 1.2em;
+}
+
+.center {
+  /* margin: 0 auto; */
+  /* display: inline; */
+}
+
+.story-complete {
+  border: 1px solid lightgray;
+  border-radius: 12px;
+  padding: 3em;
+  background-color: white;
+  text-align: center;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3rem;
+}

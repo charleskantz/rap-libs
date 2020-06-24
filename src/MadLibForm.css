@@ -1,0 +1,19 @@
+button {
+  font-family: 'Roboto Slab', serif;
+  margin: 20px auto 0;
+  height: 36px;
+  width: 220px;
+  background-color: olive;
+  color: white;
+  border-radius: 6px;
+  border: none;
+  font-size: 10pt;
+  display: block;
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: gray;
+  color: darkgray;
+  cursor: not-allowed;
+}
