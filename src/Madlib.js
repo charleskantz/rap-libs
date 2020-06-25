@@ -30,7 +30,7 @@ function Madlib() {
 
   // handles click event of selecting a story
   const handleSelection = evt => {
-    evt.target.className === "choice-icecube margin-right"
+    evt.target.className === "choice-icecube"
       ? setStoryChosen(rapLibIceCube)
       : setStoryChosen(rapLibSnoopDogg);
   }
@@ -41,8 +41,8 @@ function Madlib() {
       <div>
         <h3>Choose your Rap Lib</h3>
         <div className="inner-container">
-          <div className="choice-icecube margin-right" onClick={handleSelection}></div>
-          <div className="choice-snoopdogg margin-left" onClick={handleSelection}></div>
+          <div className="choice-icecube" onClick={handleSelection}></div>
+          <div className="choice-snoopdogg" onClick={handleSelection}></div>
         </div>
       </div>
     )

@@ -54,7 +54,9 @@ function MadLibForm({ storyWords, renderStory }) {
     <>
       <h3>Fill out your Rap Lib</h3>
       <form onSubmit={handleFormSubmit}>
-        {renderFields()}
+        <div className="form-wrapper">
+          {renderFields()}
+        </div>
         <button disabled={!checkButtonState} className="form-button">Submit Masterpiece</button>
       </form>
     </>

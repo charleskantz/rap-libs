@@ -1,30 +1,25 @@
 .choice-icecube {
-  width: 200px;
-  height: 200px;
+  min-width: 200px;
+  min-height: 200px;
   background-image: url('https://i.imgur.com/JQrt8kA.png');
   background-size: contain;
   cursor: pointer;
+  margin: 1em;
 }
 
 .choice-snoopdogg {
-  width: 200px;
-  height: 200px;
+  min-width: 200px;
+  min-height: 200px;
   background-image: url('https://i.imgur.com/4H09Yw6.png');
   background-size: contain;
   cursor: pointer;
-}
-
-.margin-left {
-  margin-left: 10px;
-}
-
-.margin-right {
-  margin-right: 10px;
+  margin: 1em;
 }
 
 .inner-container {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .final-madlib {
@@ -45,11 +40,11 @@
 .story-complete {
   border: 1px solid lightgray;
   border-radius: 12px;
-  padding: 3em;
+  padding: 2em;
   background-color: white;
   text-align: center;
   display: inline-flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 3rem;
+  margin: 0 1em 3em;
 }
